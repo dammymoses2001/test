@@ -1,38 +1,96 @@
-.App {
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #094074;
+  font-size: 16px;
+}
+
+.App{
+  width:70%;
+  padding: 1em 0;
+  min-height: 200px;
+  
+  background-color: #3C6997;
+  /* display: block; */
+  margin: 7em auto;
+  border-radius: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input{
+  /* border:2px solid green; */
+  display: block;
+  margin-top: 2em;
+  margin-left: 2em;
   text-align: center;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  padding: .5em 0;
+  width: 50%;
+  font-size: 16px;
+  border:none; 
+  border-radius: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type='text']{
+  padding-left: 1em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  margin-left: 1em;
+  padding: .6em 1em;
+  font-size: 16px;
+  background: #5ADBFF;
+  color:white;
+  border: none;
+  border-radius: 5px;
+}
+.list{
+  padding:.5em 5em;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.list button{
+  padding: .2em .7em;
+  font-size: 13px;
+  cursor: pointer;
+  border:none;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table, th, td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+table {
+  /* border:2px solid blue; */
+  /* display: block; */
+  color: white;
+  margin: 2px auto;
+  /* width: 100%;   */
+  
+}
+.main{
+  width: 80%;
+}
+td button{
+  padding: .2em .7em;
+  font-size: 13px;
+  cursor: pointer;
+  border:none;
+}
+.main input{
+  /* border:2px solid blue; */
+  width: 100%;
+}
+.ma{
+  border:none;
+  color: white;
+  padding: 1em 0;
+  background: transparent;
+  width: 100%;
 }
